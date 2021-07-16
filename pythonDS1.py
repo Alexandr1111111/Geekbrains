@@ -53,7 +53,19 @@ if v>i:
 else:
 	print('     убыток компании состовляет', abs( v-i))
 
-
+#задание 6
+print('задание 6')
+a= int(input('      введите со скольки киллометров стартует спортсмен    '))
+b=int( input('      введите цель, сколько киллометров спортсмен должен пробежать   '))
+adelta=a
+count=1
+while( True):
+	count+=1
+	adelta=adelta+adelta*0.1
+	print('      день', count, 'дистанция', adelta)
+	if adelta>b:
+		print('     на ', count, 'день спортсмен достигнет цели')
+		break
 
 	
 
