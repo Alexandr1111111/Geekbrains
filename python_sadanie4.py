@@ -73,8 +73,7 @@ def factorial(n):
 	'''функция считает факториал числа
 	  n->int число факториал которого нужно посчитать
 	  return ->  int'''
-	if n==0:
-		return 0
+	
 	permul=1
 	for x in range(1,n+1):
 		permul*=x
